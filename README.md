@@ -23,7 +23,7 @@ La documentation des tables et de leurs relations est primordiale.
 ## Implémentation
 
 L'implémentation n'est pas l'objectif principal de ce projet. Le but est ici de formaliser la structure que doit prendre l'information et non imposer un RDBMS en particulier.
-Néanmoins, par soucis de simplicité, une implémentation pour monnetDB sera présente avec l'utilisation du SQL:2003 comme référence. Le package [pmeasyr](https://github.com/IM-APHP/pmeasyr) du langage R sera le système initial de création de la base de données pour les tests.
+Néanmoins, par soucis de simplicité, une implémentation pour MonetDB sera présente avec l'utilisation du SQL:2003 comme référence. Le package [pmeasyr](https://github.com/IM-APHP/pmeasyr) du langage R sera le système initial de création de la base de données pour les tests.
 
 Une fois de plus, l'implementation n'est pas l'objectif de ce projet. Une fois le modèle spécifié, chacun est libre de l'implémenter sur le RDBMS de son choix avec son langage préféré.
 
