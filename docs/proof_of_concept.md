@@ -13,7 +13,8 @@ Voici sont contennu :
 L'idée était de me familiariser avec monetDB et la conception de base en SQL. Jusqu'à présent je ne faisait que de la requête en lecture. J'ai donc travaillé uniquement sur le fichier .rsa des archives .out et ai conçu un schema simple pour illustrer le projet.
 
 ### Le format
-Voici le dis schema : ![schema](https://github.com/AdrienLeGuillou/PMSI_DB/blob/master/proof_of_concept/diagram-draft.png)
+Voici le dis schema :
+![schema]({{ "/assets/diagram-draft_poc.png" | absolute_url }})
 
 Il contient donc 4 tables :
 __transmission__ : qui contient les informations relatives au fichier de transmission source
@@ -21,7 +22,7 @@ __sejour__ : avec un certain nombre d'information relative au séjour ou au pati
 __ rum__ : infos sur les RUM au sein d'un séjour
 __diagnostique__ et __acte__ : qui se comprennent d'elles même
 
-De plus la base de donnée contient 4 ["vues" (views en anglais)](https://en.wikipedia.org/wiki/View_(SQL)) qui sont pour faire simple des table "construites" à partir de requête sur les données et que l'on peut appeller comme les autres. En l'ocurrence il s'agit de vues contenant par séjour le nombre de rum, de diagnostique et d'acte respectivement ainsi qu'un quatrième joignant tout cela. 
+De plus la base de donnée contient 4 ["vues" (views en anglais)](https://en.wikipedia.org/wiki/View_(SQL)) qui sont pour faire simple des table "construites" à partir de requête sur les données et que l'on peut appeller comme les autres. En l'ocurrence il s'agit de vues contenant par séjour le nombre de rum, de diagnostique et d'acte respectivement ainsi qu'un quatrième joignant tout cela.
 Le but était ici de montré la possibilité de construire la base en respectant une normalisation strict, ce qui peut complexifier le requétage, mais avec des vues permettant de retrouver des tables plus famillière si on le souhaite.
 
 ### L'implémentation avec R
