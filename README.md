@@ -29,7 +29,7 @@ Une fois de plus, l'implementation n'est pas l'objectif de ce projet. Une fois l
 
 ## Feuille de route
 
-- [ ] création d'un schema simple avec quelques éléments pour illustrer le projet
-- [ ] production des fonctions permettant de génerer la base de données correspondante
+- [X] création d'un schema simple avec quelques éléments pour illustrer le projet
+- [X] production des fonctions permettant de génerer la base de données correspondante
 - [ ] ajout de toutes les informations disponnibles
 - [ ] [draw the rest of the owl](https://roaddogmedia.files.wordpress.com/2013/07/how-to-draw-an-owl-clean.jpg)
