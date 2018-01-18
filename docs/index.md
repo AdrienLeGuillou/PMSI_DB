@@ -19,4 +19,4 @@ Le but de ce projet est de s'adresser autant au médecin DIM qui veulent évalue
 Exemple : la date de début d'un séjour hospitalier est connu au jour près si l'on dispose des fichiers .tra et .rsa des archives .out du MCO mais ne le sont qu'au mois près (en calculant avec la durée et le mois de sortie) si on ne dispose que du fichier .rsa. Dans ce cas la base de donnée contiendra systématiquement une date (pour gérer les deux cas de figures) mais celle ci sera une approximation (par exemple le premier jours du mois) si on ne dispose pas de l'information complète.
 
 ## Premier jet
-Un dossier "proof of concept" a été ajouté sur [le dépot github du projet](https://github.com/AdrienLeGuillou/PMSI_DB). Je publierai sous peu un article présentant ce qu'il contient et comment le tester.
+Un dossier "proof of concept" a été ajouté sur [le dépot github du projet](https://github.com/AdrienLeGuillou/PMSI_DB). Je publierai sous peu [un article présentant ce qu'il contient et comment le tester(https://adrienleguillou.github.io/PMSI_DB/proof_of_concept)].
