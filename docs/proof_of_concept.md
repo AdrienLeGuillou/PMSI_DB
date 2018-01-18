@@ -14,7 +14,7 @@ L'idée était de me familiariser avec monetDB et la conception de base en SQL. 
 
 ### Le format
 Voici le dis schema :
-![schema]({{ "/assets/diagram-draft_poc.png" | absolute_url }})
+![schema](assets/diagram-draft_poc.png)
 
 Il contient donc 4 tables :
 __transmission__ : qui contient les informations relatives au fichier de transmission source
