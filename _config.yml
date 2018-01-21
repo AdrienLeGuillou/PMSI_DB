@@ -1,0 +1,16 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               PMSI_DB
+tagline:             Schema de base de données pour le PMSI
+url:                 https://adrienleguillou.github.io/PMSI_DB
+baseurl:             /PMSI_DB
+
+# about / contact
+author:
+  name:              Adrien Le Guillou
+  url:               https://adrienleguillou.github.io
+  email:             adrien.leguillou@gmail.com
+
+theme:               jekyll-theme-minimal
