@@ -1,6 +1,16 @@
 # PMSI_DB
 Modèle de données pour l'exploitation des fichiers de transmission du PMSI
 
+## Projet en veille
+
+Pour l'instant ce projet est en veille. Je ne vois pas vraiment comment le mener
+à bien de manière efficace et utile comme je le dit dans
+[l'article en rapport](https://adrienleguillou.github.io/PMSI_DB/2018/01/24/jachere/)
+posté sur le blog.
+
+Je suis ouvert à toute proposition pour relancer la chose si des usages communs
+peuvent être simplifiés par une telle démarche.
+
 ## Objectif
 
 Création d'une structure de base de données relationnelle permettant l'exploitation des fichiers de transmission hospitaliers de manière reproductible et standardisée.
